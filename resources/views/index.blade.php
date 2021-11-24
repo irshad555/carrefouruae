@@ -147,6 +147,7 @@
 <section class="list-img-sec">
  <div class="container">
   <div class="row row-cols-10 row-cols-lg-10 g-2">
+    <h3 class="head-3">Our top unstoppable deals</h3>
     <div class="col">
       <a class="list-img-a" href="#">
       <div class="border list-img">
@@ -233,8 +234,225 @@
   </div>
 </div>
 </section>
+<section class="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 first-banner">
+      <img src="{{asset('assets/frontend/img/2nd_banner.webp')}}" class="d-block w-100" alt="banner">
+    </div>
+    
+    </div>
+  </div>
+</section>
+
+<section class="electro-sec">
+ <div class="container">
+  <div class="row">
+    <h3 class="head-3">24 Hour Deals On Home & Electronics</h3>
+     <div class="col-md-4 electro-main border">
+      <a  href="#">
+      <div class="head-elecro">
+        <div>
+          <span> <h1>Blenders</h1></span>
+          <span><h2>UP to 60% Off</h2></span>
+        </div>
+         
+          
+      </div>
+
+      <div class="img-electro">
+          <img src="{{asset('assets/frontend/img/electro_1.webp')}}" class="d-block w-100" alt="electro-img">
+      </div>
+      </a>
+    </div>
+     
+     <div class="col-md-4 electro-main border">
+      <a  href="#">
+      <div class="head-elecro">
+        <div>
+          <span> <h1>Printing</h1></span>
+          <span><h2>UP to 30% Off</h2></span>
+        </div>
+         
+          
+      </div>
+
+      <div class="img-electro">
+          <img src="{{asset('assets/frontend/img/electro_2.webp')}}" class="d-block w-100" alt="electro-img">
+      </div>
+      </a>
+    </div>
+
+    <div class="col-md-4 electro-main border">
+      <a  href="#">
+      <div class="head-elecro">
+        <div>
+          <span> <h1>Tonkita</h1></span>
+          <span><h2>Flat 25% Off</h2></span>
+        </div>
+         
+          
+      </div>
+
+      <div class="img-electro">
+          <img src="{{asset('assets/frontend/img/electro_3.webp')}}" class="d-block w-100" alt="electro-img">
+      </div>
+      </a>
+    </div>
+    </div>
+  </div>
+</section>
+
+<section class="sliderdiv-sec">
+ <div class="container">
+  <div class="row">
+    <h3 class="head-3">Our topselling electronics</h3>
+<div class="col-md-2 border">
+<p>kdsjjd</p>
+</div>
+<div class="col-md-2 border">
+  <p>kdsjjd</p>
+</div>
+
+    </div>
+  </div>
+ 
+</section>
+
+<section class="off-sec">
+ <div class="container">
+  <div class="row">
+    <h3 class="head-3">Step into our Offer Zone</h3>
+     <div class="col-md-6 electro-main border">
+      <a  href="#">
+      <div class="head-elecro">
+        <div>
+          <span> <h1>Best Sellers At Crazy Prices</h1></span>
+          <span><h2>UP to 70% Off</h2></span>
+        </div>  
+      </div>
+      <div class="img-electro">
+          <img src="{{asset('assets/frontend/img/off_1.webp')}}" class="d-block w-100" alt="electro-img">
+      </div>
+      </a>
+    </div>
+     <div class="col-md-6 electro-main border">
+      <a  href="#">
+      <div class="head-elecro">
+        <div>
+          <span> <h1>Block Buster Deals</h1></span>
+          <span><h2>UP to 30% Off</h2></span>
+        </div>
+      </div>
+      <div class="img-electro">
+          <img src="{{asset('assets/frontend/img/off_2.webp')}}" class="d-block w-100" alt="electro-img">
+      </div>
+      </a>
+    </div>
+
+    </div>
+    <div class="row">
+       <div class="col-md-6 electro-main border">
+      <a  href="#">
+      <div class="head-elecro">
+        <div>
+          <span> <h1> Best Prices</h1></span>
+          <span><h2>UP to 30% Off</h2></span>
+        </div>
+      </div>
+      <div class="img-electro">
+          <img src="{{asset('assets/frontend/img/off_3.webp')}}" class="d-block w-100" alt="electro-img">
+      </div>
+      </a>
+    </div>
+     <div class="col-md-6 electro-main border">
+      <a  href="#">
+      <div class="head-elecro">
+        <div>
+          <span> <h1>Rock Bottom Prices</h1></span>
+          <span><h2>UP to 30% Off</h2></span>
+        </div>
+      </div>
+      <div class="img-electro">
+          <img src="{{asset('assets/frontend/img/off_4.webp')}}" class="d-block w-100" alt="electro-img">
+      </div>
+      </a>
+    </div>
+  </div>
+  </div>
+</section>
+
+<section class="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 first-banner">
+      <img src="{{asset('assets/frontend/img/banner_4.webp')}}" class="d-block w-100" alt="banner">
+    </div>
+    
+    </div>
+  </div>
+</section>
 </div>
 <!-- /Main body -->
+<footer class="footer">
+<div class="row footer-top container-fluid">  
+
+</div>
+<div class="footer-bottom container-fluid">
+<div class="row "> 
+  <div class="col-lg-2">
+  <ul class="footer_list">
+    <li><a href="">fdagdfsfd</a></li>
+    <li><a href="">sgfgdsgf</a></li>
+    <li><a href="">gffafd</a></li>
+  </ul>
+</div>
+<div class="col-lg-2">
+  <ul class="footer_list">
+    <li><a href="">fdagdfsfd</a></li>
+    <li><a href="">sgfgdsgf</a></li>
+    <li><a href="">gffafd</a></li>
+  </ul>
+</div>
+<div class="col-lg-2">
+  <ul class="footer_list">
+    <li><a href="">dgffdggf</a></li>
+    <li><a href="">gffgddfa</a></li>
+  
+  </ul>
+</div>
+<div class="col-lg-2">
+  <ul class="footer_list">
+    <li><a href="">fgfgfdfg</a></li>
+    <li><a href="">fgdadfa</a></li>
+    
+  </ul>
+</div>
+<div class="col-lg-2">
+  <ul class="footer_list">
+    <li><a href="">gffddf</a></li>
+    <li><a href="">fgsdfdf</a></li>
+  
+  </ul>
+</div>
+
+</div>
+</div>
+
+
+<div class="row footer-last"> 
+  
+  <div class="col-md-6">
+    <a href="#">
+
+    </a>
+  </div>
+  <div class="col-md-6">
+    
+  </div>
+
+</div>
+</footer>
 </div>
 <!-- /Main Wrapper -->
 
@@ -243,7 +461,13 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-
+<script>
+    $(document).ready(function() {
+$('#myCarousel').carousel({
+  interval: 5000
+});
+});
+</script>
 	<!-- <script src="{{asset('plugins/bootstrap-5.0.2/js/bootstrap.min.js')}}"></script> -->
 	<!-- Development version -->
 <!-- <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script> -->
@@ -251,7 +475,9 @@
 <!-- Production version -->
 <script src="https://unpkg.com/@popperjs/core@2"></script>
 <script type="text/javascript">
-$('.carousel').carousel();
+   $(document).ready(function() {
+$('.carousel').carousel(); });
 </script>
+
 </body>
 </html>
