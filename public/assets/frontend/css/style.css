@@ -86,12 +86,12 @@ float:right !important;}
   width: 100%;}
 
 .nav-address{
-  width: 34%;
+  width: 47%;
   color: #fff;
   text-decoration: none;
   padding-left: 1rem;
 padding-right: 1rem;
-    padding-top: 17px;
+    padding-top:6px;
     height: 59px;
 
 }.nav-address:hover{  border: 1px solid #fff;
@@ -122,22 +122,57 @@ border-left: 1px solid #ededed ;}
 font-size: 14px;}
 
 
-.dropdown-content{
+/*.dropdown-content{
   display: none;
   position: absolute !important;
   z-index: 1;
 }.dropdown-content a {
-/*  color: black;
-  padding: 12px 16px;
-  text-decoration: none;*/
+
   display: block;
 }
-/*.dropdown1-content a:hover {background-color: #ddd;}*/
+
 
 .dropdown1:hover .dropdown-content {display: block;}
 .dropdown1:hover .drop-a {background-color:var(--second-background);
 color:var(--second-color);
-border-bottom: 2px solid var(--second-color);}
+border-bottom: 2px solid var(--second-color);}*/
+
+
+/*///////////////////////////////////////*/
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown1:hover .dropdown-content {display: block;}
+
+.dropdown1:hover .dropbtn {background-color: #3e8e41;}
 
 /*---------------first-slider-------------------*/
 .first-slider{
@@ -210,6 +245,23 @@ font-weight:700;
     padding-top: 30px
       }.off-sec a{text-decoration: none;color: #fff;}
 
+/*------------checklist-sec--------------*/
+.checklist-sec{
+  padding-bottom: 30px;
+    padding-top: 30px}
+    .background-div{
+      background-color: #000;
+        border-radius:8px;
+    } .style-a{text-decoration: none;
+      color: #fff;}
+      .h-h1{font-weight:400;font-size:1rem;}
+    .h-h2{font-weight:800;font-size:1rem;}
+    .inline-dispaly{
+      display: inline-block;}
+      .div_sub{width:49%;}
+      .div_sub img{width: 50% !important;}
+      .div_inner{width:48%;padding: 13px;}
+      .text-align{text-align: center;}
 
 
 /*=====================footer=======================*/
@@ -313,3 +365,4 @@ font-weight:600;
   width: 100%;
   font-size: 14px;
 }
+

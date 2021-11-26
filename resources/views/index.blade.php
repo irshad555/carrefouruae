@@ -46,7 +46,7 @@
                             </a>
 
                             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                                <a class="nav-address" aria-current="page" href="#">Select Your Address</a>
+                                <a class="nav-address" aria-current="page" href="#">Hello,<br><i class="fa fa-map-marker" aria-hidden="true"></i><strong>Select Your Address</strong></a>
 
                                 <form class="d-flex">
                                     <div class="input-group search-div">
@@ -474,6 +474,260 @@
                             <div class="col-md-12 first-banner">
                                 <img src="{{asset('assets/frontend/img/banner_4.webp')}}" class="d-block w-100" alt="banner" />
                             </div>
+                        </div>
+                    </div>
+                </section>
+
+                 <section class="checklist-sec">
+                    <div class="container">
+                        <div class="row">
+                            <h3 class="head-3">Your shopping checklist</h3>
+                            <div class="col-md-4 border background-div text-align">
+                                <a class="style-a" href="#">
+                                    <div>
+                                        <img src="{{asset('assets/frontend/img/check_1.webp')}}" class="d-block w-100" alt="electro-img" />
+                                    </div>
+                                        <div>
+                                            <span> <h1 class="h-h1">Pantry Essentials</h1></span>
+                                            <span><h2 class="h-h2">UP to 50% Off</h2></span>
+                                        </div>
+                                   
+                                 
+                                </a>
+                            </div>
+                            <div class="col-md-8">
+                                   <div class="col-md-4 border background-div inline-dispaly div_sub text-align">
+                                <a class="style-a" href="#">
+                                     <div class="inline-dispaly div_inner">
+                                            <span> <h1 class="h-h1">Pantry Essentials</h1></span>
+                                            <span><h2 class="h-h2">UP to 50% Off</h2></span>
+                                        </div>
+                                    <div class="inline-dispaly div_inner">
+                                        <img src="{{asset('assets/frontend/img/check_2.webp')}}" class="d-block w-100" alt="electro-img" />
+                                    </div class="inline-dispaly div_inner">
+                                       
+                                   
+                                 
+                                </a>
+                            </div>
+                               <div class="col-md-4 border background-div inline-dispaly div_sub text-align">
+                                <a class="style-a" href="#">
+                                    <div class="inline-dispaly div_inner">
+                                            <span> <h1 class="h-h1">Pantry Essentials</h1></span>
+                                            <span><h2 class="h-h2">UP to 50% Off</h2></span>
+                                        </div>
+                                    <div class="inline-dispaly div_inner">
+                                        <img src="{{asset('assets/frontend/img/check_3.webp')}}" class="d-block w-100" alt="electro-img" />
+                                    </div>
+                                        
+                                   
+                                 
+                                </a>
+                            </div>
+                               <div class="col-md-4 border background-div inline-dispaly div_sub text-align">
+                                <a class="style-a" href="#">
+                                    <div class="inline-dispaly div_inner">
+                                            <span> <h1 class="h-h1">Pantry Essentials</h1></span>
+                                            <span><h2 class="h-h2">UP to 50% Off</h2></span>
+                                        </div>
+                                    <div class="inline-dispaly div_inner">
+                                        <img src="{{asset('assets/frontend/img/check_4.webp')}}" class="d-block w-100" alt="electro-img" />
+                                    </div>
+                                        
+                                   
+                                 
+                                </a>
+                            </div>
+                               <div class="col-md-4 border background-div inline-dispaly div_sub text-align">
+                                <a class="style-a" href="#">
+                                     <div class="inline-dispaly div_inner">
+                                            <span> <h1 class="h-h1">Pantry Essentials</h1></span>
+                                            <span><h2 class="h-h2">UP to 50% Off</h2></span>
+                                        </div>
+                                    <div class="inline-dispaly div_inner">
+                                        <img src="{{asset('assets/frontend/img/check_5.png')}}" class="d-block w-100" alt="electro-img" />
+                                    </div>
+                                       
+                                   
+                                 
+                                </a>
+                            </div>
+                              
+                            </div>
+                        </div>
+                       </div>
+                </section>
+
+                <section class="checklist-sec">
+                    <div class="container">
+                        <div class="row">
+                            <h3 class="head-3">For all your household needs</h3>
+                            <div class="col-md-2 border background-div text-align">
+                              
+                                    <a class="style-a" href="">
+                                        <div >
+                                        <img src="{{asset('assets/frontend/img/kit_1.webp')}}" class="d-block w-100" alt="electro-img" />
+                                    </div>
+                                      <div >
+                                    <span> <h1 class="h-h1" style="font-size: .6rem;">TVs & Projectors</h1></span>
+                                    
+                                        </div>
+
+                                    </a>
+                            </div>
+                              <div class="col-md-2 border background-div text-align">
+                              
+                                    <a class="style-a" href="">
+                                        <div >
+                                        <img src="{{asset('assets/frontend/img/kit_2.webp')}}" class="d-block w-100" alt="electro-img" />
+                                    </div>
+                                      <div >
+                                    <span> <h1 class="h-h1" style="font-size: .6rem;">Built Ins</h1></span>
+                                    
+                                        </div>
+
+                                    </a>
+                            </div>
+                              <div class="col-md-2 border background-div text-align">
+                              
+                                    <a class="style-a" href="">
+                                        <div >
+                                        <img src="{{asset('assets/frontend/img/kit_3.webp')}}" class="d-block w-100" alt="electro-img" />
+                                    </div>
+                                      <div >
+                                    <span> <h1 class="h-h1" style="font-size: .6rem;">Washers & Dryers</h1></span>
+                                    
+                                        </div>
+
+                                    </a>
+                            </div>
+                              <div class="col-md-2 border background-div text-align">
+                              
+                                    <a class="style-a" href="">
+                                        <div >
+                                        <img src="{{asset('assets/frontend/img/kit_4.webp')}}" class="d-block w-100" alt="electro-img" />
+                                    </div>
+                                      <div >
+                                    <span> <h1 class="h-h1" style="font-size: .6rem;">Iron's & Steamers</h1></span>
+                                    
+                                        </div>
+
+                                    </a>
+                            </div>
+                              <div class="col-md-2 border background-div text-align">
+                              
+                                    <a class="style-a" href="">
+                                        <div >
+                                        <img src="{{asset('assets/frontend/img/kit_5.webp')}}" class="d-block w-100" alt="electro-img" />
+                                    </div>
+                                      <div >
+                                    <span> <h1 class="h-h1" style="font-size: .6rem;">Vacuum Cleaners</h1></span>
+                                    
+                                        </div>
+
+                                    </a>
+                            </div>
+                              <div class="col-md-2 border background-div text-align">
+                              
+                                    <a class="style-a" href="">
+                                        <div >
+                                        <img src="{{asset('assets/frontend/img/kit_6.webp')}}" class="d-block w-100" alt="electro-img" />
+                                    </div>
+                                      <div >
+                                    <span> <h1 class="h-h1" style="font-size: .6rem;">Coolers, Heaters & Air Treatment</h1></span>
+                                    
+                                        </div>
+
+                                    </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                   <section class="checklist-sec">
+                    <div class="container">
+                        <div class="row">
+                            <h3 class="head-3">For indoors & outdoors</h3>
+                            <div class="col-md-2 border background-div text-align">
+                              
+                                    <a class="style-a" href="">
+                                        <div >
+                                        <img src="{{asset('assets/frontend/img/in_1.webp')}}" class="d-block w-100" alt="electro-img" />
+                                    </div>
+                                      <div >
+                                    <span> <h1 class="h-h1" style="font-size: .6rem;">Kitchen & Dining</h1></span>
+                                    
+                                        </div>
+
+                                    </a>
+                            </div>
+                              <div class="col-md-2 border background-div text-align">
+                              
+                                    <a class="style-a" href="">
+                                        <div >
+                                        <img src="{{asset('assets/frontend/img/in_2.webp')}}" class="d-block w-100" alt="electro-img" />
+                                    </div>
+                                      <div >
+                                    <span> <h1 class="h-h1" style="font-size: .6rem;">Bathroom & More</h1></span>
+                                    
+                                        </div>
+
+                                    </a>
+                            </div>
+                              <div class="col-md-2 border background-div text-align">
+                              
+                                    <a class="style-a" href="">
+                                        <div >
+                                        <img src="{{asset('assets/frontend/img/in_3.webp')}}" class="d-block w-100" alt="electro-img" />
+                                    </div>
+                                      <div >
+                                    <span> <h1 class="h-h1" style="font-size: .6rem;">Bedroom</h1></span>
+                                    
+                                        </div>
+
+                                    </a>
+                            </div>
+                              <div class="col-md-2 border background-div text-align">
+                              
+                                    <a class="style-a" href="">
+                                        <div >
+                                        <img src="{{asset('assets/frontend/img/in_4.webp')}}" class="d-block w-100" alt="electro-img" />
+                                    </div>
+                                      <div >
+                                    <span> <h1 class="h-h1" style="font-size: .6rem;">Furniture & Decor</h1></span>
+                                    
+                                        </div>
+
+                                    </a>
+                            </div>
+                              <div class="col-md-2 border background-div text-align">
+                              
+                                    <a class="style-a" href="">
+                                        <div >
+                                        <img src="{{asset('assets/frontend/img/in_5.webp')}}" class="d-block w-100" alt="electro-img" />
+                                    </div>
+                                      <div >
+                                    <span> <h1 class="h-h1" style="font-size: .6rem;">Camping, Barbeque & Grill</h1></span>
+                                    
+                                        </div>
+
+                                    </a>
+                            </div>
+                              <div class="col-md-2 border background-div text-align">
+                              
+                                    <a class="style-a" href="">
+                                        <div >
+                                        <img src="{{asset('assets/frontend/img/in_6.webp')}}" class="d-block w-100" alt="electro-img" />
+                                    </div>
+                                      <div >
+                                    <span> <h1 class="h-h1" style="font-size: .6rem;">Garden Equipment</h1></span>
+                                    
+                                        </div>
+
+                                    </a>
+                            </div>
+
                         </div>
                     </div>
                 </section>
