@@ -6,9 +6,19 @@
         <meta name="csrf-token" content="{{ csrf_token() }}" />
         <title></title>
 
+<!-- 
+<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script> -->
+
+
         <!-- Bootstrap CSS -->
         <!--  <link rel="stylesheet" href="{{asset('plugins/bootstrap-5.0.2/css/bootstrap.min.css')}}"> -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 
         <!-- Fontawesome CSS -->
         <link rel="stylesheet" href="{{asset('plugins/fontawesome-free-5.15.4/css/fontawesome.min.css')}}" />
@@ -392,19 +402,238 @@
                     </div>
                 </section>
 
-                <section class="sliderdiv-sec">
-                    <div class="container">
-                        <div class="row">
-                            <h3 class="head-3">Our topselling electronics</h3>
-                            <div class="col-md-2 border">
-                                <p>kdsjjd</p>
-                            </div>
-                            <div class="col-md-2 border">
-                                <p>kdsjjd</p>
+<section class="sliderdiv-sec">
+    <div class="container">
+        <div class="row">
+            <h3 class="head-3">Step into our Offer Zone</h3>
+
+
+<!-- <div class="cardCarousel row">
+  <div class="Carousel-slider"> -->
+
+            <div class="col-md-2 border sl_div item">
+                <a href="#" class="style-a">
+                    <div class="slide-img">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="{{asset('assets/frontend/img/sl_1.jpg_200Wx200H')}}" class="d-block w-100" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{asset('assets/frontend/img/sl_2.jpg_200Wx200H')}}" class="d-block w-100" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{asset('assets/frontend/img/sl_1.jpg_200Wx200H')}}" class="d-block w-100" alt="..." />
+                                </div>
                             </div>
                         </div>
                     </div>
-                </section>
+
+                    <div class="slide-head">
+                        <h6>Carrefour Fine Sugar 2kg</h6>
+                        <p>Size: 2kg</p>
+                        <span class="inline-dispaly">
+                            8.25
+                            <p class="sl_price inline-dispaly">AED</p>
+                        </span>
+                    </div>
+                </a>
+
+                <div class="sl_bottom col-md-2 border">
+                    <input value="1" type="number" step="1" min="1" name="" />
+                    <button class="btn btn-danger">Add</button>
+                </div>
+            </div>
+
+
+            <!--  -->
+            <div class="col-md-2 border sl_div item" >
+                <a href="#" class="style-a">
+                    <div class="slide-img">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="{{asset('assets/frontend/img/sl_1.jpg_200Wx200H')}}" class="d-block w-100" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{asset('assets/frontend/img/sl_2.jpg_200Wx200H')}}" class="d-block w-100" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{asset('assets/frontend/img/sl_1.jpg_200Wx200H')}}" class="d-block w-100" alt="..." />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slide-head">
+                        <h6>Carrefour Fine Sugar 2kg</h6>
+                        <p>Size: 2kg</p>
+                        <span class="inline-dispaly">
+                            8.25
+                            <p class="sl_price inline-dispaly">AED</p>
+                        </span>
+                    </div>
+                </a>
+
+                <div class="sl_bottom col-md-2 border ">
+                    <input value="1" type="number" step="1" min="1" name="" />
+                    <button class="btn btn-danger">Add</button>
+                </div>
+            </div>
+            <!--  -->
+            <div class="col-md-2 border sl_div item" >
+                <a href="#" class="style-a">
+                    <div class="slide-img">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="{{asset('assets/frontend/img/sl_1.jpg_200Wx200H')}}" class="d-block w-100" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{asset('assets/frontend/img/sl_2.jpg_200Wx200H')}}" class="d-block w-100" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{asset('assets/frontend/img/sl_1.jpg_200Wx200H')}}" class="d-block w-100" alt="..." />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slide-head">
+                        <h6>Carrefour Fine Sugar 2kg</h6>
+                        <p>Size: 2kg</p>
+                        <span class="inline-dispaly">
+                            8.25
+                            <p class="sl_price inline-dispaly">AED</p>
+                        </span>
+                    </div>
+                </a>
+
+                <div class="sl_bottom col-md-2 border">
+                    <input value="1" type="number" step="1" min="1" name="" />
+                    <button class="btn btn-danger">Add</button>
+                </div>
+            </div>
+            <!--  -->
+             <!--  -->
+            <div class="col-md-2 border sl_div item" >
+                <a href="#" class="style-a">
+                    <div class="slide-img">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="{{asset('assets/frontend/img/sl_1.jpg_200Wx200H')}}" class="d-block w-100" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{asset('assets/frontend/img/sl_2.jpg_200Wx200H')}}" class="d-block w-100" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{asset('assets/frontend/img/sl_1.jpg_200Wx200H')}}" class="d-block w-100" alt="..." />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slide-head">
+                        <h6>Carrefour Fine Sugar 2kg</h6>
+                        <p>Size: 2kg</p>
+                        <span class="inline-dispaly">
+                            8.25
+                            <p class="sl_price inline-dispaly">AED</p>
+                        </span>
+                    </div>
+                </a>
+
+                <div class="sl_bottom col-md-2 border">
+                    <input value="1" type="number" step="1" min="1" name="" />
+                    <button class="btn btn-danger">Add</button>
+                </div>
+            </div>
+            <!--  -->
+             <!--  -->
+            <div class="col-md-2 border sl_div item" >
+                <a href="#" class="style-a">
+                    <div class="slide-img">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="{{asset('assets/frontend/img/sl_1.jpg_200Wx200H')}}" class="d-block w-100" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{asset('assets/frontend/img/sl_2.jpg_200Wx200H')}}" class="d-block w-100" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{asset('assets/frontend/img/sl_1.jpg_200Wx200H')}}" class="d-block w-100" alt="..." />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slide-head">
+                        <h6>Carrefour Fine Sugar 2kg</h6>
+                        <p>Size: 2kg</p>
+                        <span class="inline-dispaly">
+                            8.25
+                            <p class="sl_price inline-dispaly">AED</p>
+                        </span>
+                    </div>
+                </a>
+
+                <div class="sl_bottom col-md-2 border">
+                    <input value="1" type="number" step="1" min="1" name="" />
+                    <button class="btn btn-danger">Add</button>
+                </div>
+            </div>
+            <!--  -->
+             <!--  -->
+            <div class="col-md-2 border sl_div item" >
+                <a href="#" class="style-a">
+                    <div class="slide-img">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="{{asset('assets/frontend/img/sl_1.jpg_200Wx200H')}}" class="d-block w-100" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{asset('assets/frontend/img/sl_2.jpg_200Wx200H')}}" class="d-block w-100" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{asset('assets/frontend/img/sl_1.jpg_200Wx200H')}}" class="d-block w-100" alt="..." />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slide-head">
+                        <h6>Carrefour Fine Sugar 2kg</h6>
+                        <p>Size: 2kg</p>
+                        <span class="inline-dispaly">
+                            8.25
+                            <p class="sl_price inline-dispaly">AED</p>
+                        </span>
+                    </div>
+                </a>
+
+                <div class="sl_bottom col-md-2 border">
+                    <input value="1" type="number" step="1" min="1" name="" />
+                    <button class="btn btn-danger">Add</button>
+                </div>
+            </div>
+            <!--  -->
+<!-- </div> -->
+
+<!--   <div class="Carousel-controls">
+    <button type="button" class="Carousel-prev">&#x23f4;</button>
+    <button type="button" class="Carousel-next">&#x23f5;</button>
+  </div> -->
+
+<!-- </div> -->
+    
+    <!-- main carosel -->
+       </div>
+    </div>
+</section>
+
 
                 <section class="off-sec">
                     <div class="container">
@@ -938,10 +1167,12 @@
         </div>
         <!-- /Main Wrapper -->
 
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.min.css">
+<script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       
+
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
 
         <script>
             $(document).ready(function () {
@@ -956,10 +1187,54 @@
 
         <!-- Production version -->
         <script src="https://unpkg.com/@popperjs/core@2"></script>
-        <script type="text/javascript">
-            $(document).ready(function () {
-                $(".carousel").carousel();
-            });
-        </script>
+<!--         <script type="text/javascript">
+
+$(document).ready(function () {
+$(".cardCarousel").each(function() {
+
+      var $this = $(this),
+      $btns = $this.find(".Carousel-prev, .Carousel-next"),
+      $slider = $this.find(".Carousel-slider"),
+      $cards = $slider.find(">*"),
+      tot = $cards.length,
+      // i=tot;
+       i = Math.floor(tot / 2); // Somewhere in the middle
+      console.log(i);
+      function anim() {
+    i = i < 0 ? tot - 1 : i % tot; // Fix index
+    var $active = $cards.eq(i);
+    $cards.removeClass('active prev next');
+    $active.addClass('active');
+    $active.prev().addClass('prev');
+    $active.next().addClass('next');
+    $slider.css({transform: `translateX(-${16.66*i}%)`}); // CSS! yey
+  }
+
+  $cards.on("click", function() {
+    i = $cards.index(this);
+    anim();
+  });
+
+  $btns.on("click", function() {
+    i = $(this).is(".Carousel-next") ? ++i : --i;
+    anim();
+  });
+
+  anim();
+
+
+  $(document).on("keydown", function(e) {
+    var k = e.which;
+    if (k === 6 || k === 6) {
+      i = k === 6 ? ++i : --i;
+      anim();
+    }
+  });
+
+});
+});
+        </script> -->
+
+
     </body>
 </html>
