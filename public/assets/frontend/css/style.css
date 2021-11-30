@@ -99,80 +99,101 @@ color: #fff;}
 
 
 /*----------------second nav--------------------------*/
-.second-nav{
-  top: 81px;
-  overflow: hidden;
-  position: fixed;
-  width: 100%;
-    color:#000;
-    background-color: rgb(255, 255, 255);
-    transition: all 0.1s ease 0s;
-    transform: translate(0px, 0px);
-    z-index:2;
-  border-style:solid;
-  border-color:transparent transparent #ededed transparent ;
-}.second-nav::before {
+
+
+.navbar .megamenu{ padding: 1rem; }
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+  .navbar .has-megamenu{position:static!important;}
+  .navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+
+} 
+/* ============ desktop view .end// ============ */
+
+/* ============ mobile view ============ */
+@media(max-width: 991px){
+  .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+    overflow-y: auto;
+      max-height: 90vh;
+      margin-top:10px;
+  }
+}
+/* ============ mobile view .end// ============ */
+
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu{ display: none; }
+  .navbar .nav-item:hover .nav-link{   }
+  .navbar .nav-item:hover .dropdown-menu{ display: block; }
+  .navbar .nav-item .dropdown-menu{ margin-top:0; }
+}.dropdown-item-head{
+display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 600;
+    color: #212529;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    border: 0;}
+    .dropdown-item{
+    font-weight: 200;
+    font-size: .8rem;}
+
+/*all category sub*/
+
+
+.megasubmenu{ padding:1rem; }
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+    .megasubmenu{ 
+        left:100%; top:0; min-height: 100%; min-width:500px;
+    }
+    
+    .dropdown-menu > li:hover .megasubmenu{
+        display: block;
+    }
+}   
+/* ============ desktop view .end// ============ */
+.menu-ul2{font-size:.8rem;
+ border-right: 1px solid #ededed;
+border-left: 1px solid #ededed ;
+}
+.menu-ul2 a{color:black !important;}
+
+.menu-ul3-a1 svg{margin-bottom: 11px;}
+.menu-ul3-a2 svg{margin-bottom: 11px;}
+.menu-ul3{height: 40px;}
+.menu-ul3 p{ margin-bottom: 0rem;}
+
+.menu-ul3-a1{font-size: 12px;
+    font-weight: 800;
+    color: rgb(227, 135, 15)!important;
+    line-height: 15px;
+}.menu-ul3-a2{
+  font-size: 12px;
+    font-weight: 800;
+    color: rgb(14, 90, 167)!important;
+}
+.nav_scnd{
+background-color: rgb(255, 255, 255);
+transition: all 0.1s ease 0s;
+transform: translate(0px, 0px);
+z-index:2;
+border-style:solid;
+border-color:transparent transparent #ededed transparent ;
+}
+.nav_scnd::before {
   border-color:transparent transparent transparent transparent;
 }
 .scnd-ul{
   border-right: 1px solid #ededed;
 border-left: 1px solid #ededed ;}
 
-.second-nav a{color: #000 !important;
-font-size: 14px;}
 
-
-/*.dropdown-content{
-  display: none;
-  position: absolute !important;
-  z-index: 1;
-}.dropdown-content a {
-
-  display: block;
-}
-
-
-.dropdown1:hover .dropdown-content {display: block;}
-.dropdown1:hover .drop-a {background-color:var(--second-background);
-color:var(--second-color);
-border-bottom: 2px solid var(--second-color);}*/
-
-
-/*///////////////////////////////////////*/
-.dropbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-.dropdown1 {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown1:hover .dropdown-content {display: block;}
-
-.dropdown1:hover .dropbtn {background-color: #3e8e41;}
 
 /*---------------first-slider-------------------*/
 .first-slider{
@@ -369,8 +390,9 @@ font-weight:600;
 
 
 /*------------------------slider card----------------------*/
+
 .slide-img img{width: 70%;}
-.sl_div{background-color: #fff;padding-bottom: 10px;}
+.sl_div{background-color: #fff;padding: 25px;}
 .sl_div a{color: black;text-decoration: none;}
 .sl_div a:hover{pointer-events: none;}
 .sl_div h6{font-weight: 400;
@@ -397,55 +419,4 @@ font-weight:600;
 
 
 /*hjgsdls=====================================*/
-/*.cardCarousel {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-}
-
-.Carousel-slider {
-  display: flex;
-
-  transition: 1s;
-  -webkit-backface-visibility: hidden;
-}
-
-.Carousel-slider>* {
- 
-  position: relative;
-  height: 100%;
-}
-
-.Carousel-slider>.active {
-  
-}
-
-.Carousel-slider>.prev {
-  transform: translateX(24%) scale(0.8);
-}
-
-.Carousel-slider>.next {
-  transform: translateX(-24%) scale(0.8);
-}
-
-.Carousel-slider>.prev,
-.Carousel-slider>.next {
-  opacity: 0.5;
-  pointer-events: auto;
-}
-
-.Carousel-controls {
-  text-align: center;
-}
-
-.Carousel-prev,
-.Carousel-next {
-  border: 0;
-  height: 3rem;
-  font-size: 2em;
-  line-height: 1em;
-  background: #000;
-  border-radius: 50%;
-  color: #fff;
-  cursor: pointer;
-}*/
+.slick-arrow{background-color: #000 !important;}
