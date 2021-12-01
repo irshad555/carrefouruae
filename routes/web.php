@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/', function () {
+//     return view('index');
+// });
+Route::get('/products', function () {
+    return view('frontend.products');
+});
 Route::get('/', function () {
-    return view('index');
+    return view('frontend.index');
 });
