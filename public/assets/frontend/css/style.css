@@ -65,6 +65,12 @@ border: 1px solid #fff;}
 width:20%;
 padding-left: 1rem;
 padding-right: 1rem;
+color: var(--primary-color) !important;
+font-weight: 800;
+font-size: 1.7rem;
+border: 1px solid #000;
+background-color: #fff !important;
+font-family: var(--roboto);
 }.css-ekjjru
 {width: 24px;
     height: 24px;
@@ -97,7 +103,20 @@ padding-right: 1rem;
 }.nav-address:hover{  border: 1px solid #fff;
 color: #fff;}
 
+.nav-sign-li{
+  right:8% !important;
+    width:40% !important;
+    float: right !important;
+    left: unset !important;
+}.nav-sign-btn{
+background-color:var(--red-color) ;color: #fff;margin-left:33.33%;}
+.nav-sign-d12{border-bottom:2px solid var(--second-background);padding-bottom:14px;}
+.nav-sign-d12 span{font-size:.8rem;text-align: center;margin-left:36%;}
 
+
+.nav-sign-d61{border-right:2px solid var(--second-background);}
+.nav-sign-li-a li{list-style: none;}
+.nav-sign-li-a a{text-decoration: none;}
 /*----------------second nav--------------------------*/
 
 
@@ -309,6 +328,8 @@ height:50px;
 text-decoration: none;
 color: #fff;
 font-size:16px;
+}.social-links{
+padding-left: 2.5rem;
 }
 .social-links a{
 text-decoration: none;
@@ -363,7 +384,7 @@ margin: 0px auto;
   text-align:left;
 }
 .social-h6{
-padding-left: 37px;
+padding-left:40px;
 font-size: 14px;
 padding-bottom: 10px;}
 
