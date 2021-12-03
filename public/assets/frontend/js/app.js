@@ -82,5 +82,5 @@ window.addEventListener("resize", function() {
         }
         // end if innerWidth
     }); 
-    // DOMContentLoaded  end
+ 
   

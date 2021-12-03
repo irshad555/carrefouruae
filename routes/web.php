@@ -16,9 +16,13 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('index');
 // });
-Route::get('/products', function () {
-    return view('frontend.products');
-});
+
 Route::get('/', function () {
     return view('frontend.index');
+});
+Route::get('/category', function () {
+    return view('frontend.category');
+});
+Route::get('/products', function () {
+    return view('frontend.products');
 });
