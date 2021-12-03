@@ -19,7 +19,7 @@
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" />
         <!-- Styles -->
-        <link rel="stylesheet" href="{{asset('assets/frontend/css/style.css')}}" />
+        <link rel="stylesheet" href="{{asset('assets/frontend/css/style.css?date=03-12-2021')}}" />
         <!-- Scripts -->
         <script src="{{ asset('assets/frontend/js/app.js')}}" defer></script>
         <!-- slick -->
