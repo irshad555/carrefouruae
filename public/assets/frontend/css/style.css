@@ -418,10 +418,11 @@ font-weight:600;
 /*------------------------slider card----------------------*/
 
 .slide-img img{width: 70%;}
-.sl_div{background-color: #fff;padding: 25px;}
+.sl_div{background-color: #fff;padding: 25px;width:92% !important;position:relative;}
+
 .sl_div a{color: black;text-decoration: none;}
 .sl_div a:hover{pointer-events: none;}
-.sl_div h6{font-weight: 400;
+.sl_div h6{font-weight: 400; !important
     font-size: 1.1rem;color:gray;}
     .sl_price{color: gray;}
 .sl_bottom{height:40px;
@@ -468,3 +469,51 @@ width: 100%;height:50px;padding-top:1.2rem;padding-bottom:1.2rem; font-size: .9r
 
 .pr_banner_off h3{font-size:17px;color: #2d2d2d;font-weight:400;}
 .pr-img{background-color:var( --product-bg);}
+
+.pr-img:hover{opacity: 0.6;padding: 3px;}
+.list-img-a h5:hover{opacity: 0.6;}
+.discount{
+  background-color: yellow;
+    position: absolute;
+    width: 98%;
+    height: 24px;
+    margin: -24px;
+    padding-top: 5px;
+}.discount p{color: var(--red-color);text-align:center;font-size:.7rem;}
+.banner_col4 img{width:38%;float: right;border-radius:25px ;}
+.banner_col4{}
+.banner_col4_main{background-color:var( --product-bg);border-radius:25px;padding:0;width: 31.333333%;}
+.banner_col4_row{grid-column-gap: 1.5rem;}
+.banner_col4_off{margin: 94px 38px;float: left;
+    position: absolute !important;
+    height: auto;}
+.banner_col4_off h2{margin-bottom: 9px;
+    font-family: "Teshrin AR LT";
+    font-weight: 600;
+    line-height: 1;
+    color: rgb(45, 45, 45);font-size: 18px;
+    }
+    .banner_col4_off h3{margin-top: 16px;
+    font-family: "Teshrin AR LT";
+    font-weight: 400;
+    line-height: 1;
+    color: rgb(45, 45, 45);font-size: 16px;}
+
+
+.w-102{width:102% !important;}
+ .bg-pr{background-color:var( --product-bg);border-radius:14px;}
+
+
+ .img-span-div{padding-bottom: 20px;border-radius:14px;}
+ .img-span-div img{position: relative;}
+ .img-span-div h2{position: absolute;margin-top: -75px;
+    margin-left: 30px;}
+
+  .img-span-main{height: 299px;padding-top: 20px;}
+  .img-span-main img{position: relative;}  
+  .img-span-main h2{position: absolute;
+    margin-top: -53px;
+    margin-left: 104px;
+}
+ 
+

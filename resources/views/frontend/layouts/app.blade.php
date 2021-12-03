@@ -32,7 +32,7 @@
 <body>
  <!-- Main Wrapper -->
     <div class="main-wrapper">
-    	@include('frontend.layouts.navbar')
+    	@include('frontend.layouts.header')
     	@yield('content')
     	@include('frontend.layouts.footer')
     </div>
@@ -55,7 +55,7 @@
                     slidesToShow: 6,
                     slidesToScroll: 1,
                     autoplay: true,
-                    autoplaySpeed: 1000,
+                    // autoplaySpeed:2000,
                     arrows: true,
                     responsive: [
                         {

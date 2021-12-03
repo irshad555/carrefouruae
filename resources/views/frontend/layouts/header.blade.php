@@ -123,14 +123,14 @@
                                 </ul>
                                 <ul class="navbar-nav menu-ul2">
                                     <li class="nav-item dropdown has-megamenu">
-                                        <a class="nav-link" href="#">
+                                        <a class="nav-link" href="{{URL('products')}}">
                                             Beverages
                                         </a>
                                         <div class="dropdown-menu megamenu">
                                             <div class="row">
                                                 <div class="col-md-3">
                                                     <h6 class="dropdown-item-head">Coffee</h6>
-                                                    <a class="dropdown-item" href="#">Coffee Drinks</a>
+                                                    <a class="dropdown-item" href="{{URL('products')}}">Coffee Drinks</a>
                                                     <a class="dropdown-item" href="#">Cold Coffee</a>
                                                     <a class="dropdown-item" href="#">Decaffeinated Coffee</a>
                                                     <a class="dropdown-item" href="#">Ground Coffee & Beans</a>
@@ -139,7 +139,7 @@
                                                 </div>
                                                 <div class="col-md-3">
                                                     <h6 class="dropdown-item-head">Juices</h6>
-                                                    <a class="dropdown-item" href="#">Coffee Drinks</a>
+                                                    <a class="dropdown-item" href="{{URL('products')}}">Coffee Drinks</a>
                                                     <a class="dropdown-item" href="#">Cold Coffee</a>
                                                     <a class="dropdown-item" href="#">Decaffeinated Coffee</a>
                                                     <a class="dropdown-item" href="#">Ground Coffee & Beans</a>
@@ -168,7 +168,7 @@
                                         </div>
                                     </li>
                                     <li class="nav-item dropdown has-megamenu">
-                                        <a class="nav-link" href="#">
+                                        <a class="nav-link" href="{{URL('products')}}">
                                             Electronics & Appliances
                                         </a>
                                         <div class="dropdown-menu megamenu">
@@ -225,7 +225,7 @@
                                         </div>
                                     </li>
                                     <li class="nav-item dropdown has-megamenu">
-                                        <a class="nav-link" href="#">
+                                        <a class="nav-link" href="{{URL('products')}}">
                                             Food Cupboard
                                         </a>
                                         <div class="dropdown-menu megamenu">
@@ -254,7 +254,7 @@
                                         </div>
                                     </li>
                                     <li class="nav-item dropdown has-megamenu">
-                                        <a class="nav-link" href="#">
+                                        <a class="nav-link" href="{{URL('products')}}">
                                             Smartphones, Tablets & Wearables
                                         </a>
                                         <div class="dropdown-menu megamenu">
@@ -278,7 +278,7 @@
                                         </div>
                                     </li>
                                     <li class="nav-item dropdown has-megamenu">
-                                        <a class="nav-link" href="#">
+                                        <a class="nav-link" href="{{URL('products')}}">
                                             Fresh Food
                                         </a>
                                         <div class="dropdown-menu megamenu">
@@ -307,7 +307,7 @@
                                         </div>
                                     </li>
                                     <li class="nav-item dropdown has-megamenu">
-                                        <a class="nav-link" href="#">
+                                        <a class="nav-link" href="{{URL('products')}}">
                                             Baby Products
                                         </a>
                                         <div class="dropdown-menu megamenu">
