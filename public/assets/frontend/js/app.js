@@ -24,10 +24,11 @@ if (window.innerWidth > 992) {
                 nextEl.classList.remove('show');
           }
 
-        })
+        });
     });
 
 }
+});
 // end if innerWidth
 
 
@@ -78,7 +79,7 @@ window.addEventListener("resize", function() {
 
                     }
                 });
-            })
+            });
         }
         // end if innerWidth
     }); 
